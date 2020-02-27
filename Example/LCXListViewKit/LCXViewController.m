@@ -7,6 +7,8 @@
 //
 
 #import "LCXViewController.h"
+#import "TableViewVC.h"
+#import "CollectionViewVC.h"
 
 @interface LCXViewController ()
 
@@ -18,6 +20,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (IBAction)tableViewAction:(id)sender {
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:TableViewVC.new];
+    nav.navigationBar.translucent = NO;
+    [self presentViewController:nav animated:YES completion:nil];
+}
+
+- (IBAction)collectionViewAction:(id)sender {
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:CollectionViewVC.new];
+    nav.navigationBar.translucent = NO;
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

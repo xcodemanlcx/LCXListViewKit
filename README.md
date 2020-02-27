@@ -5,6 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/LCXListViewKit.svg?style=flat)](https://cocoapods.org/pods/LCXListViewKit)
 [![Platform](https://img.shields.io/cocoapods/p/LCXListViewKit.svg?style=flat)](https://cocoapods.org/pods/LCXListViewKit)
 
+## 功能
+* 父类SuperCell：自定义cell的便利使用；
+LCXSuperTableViewCell.h
+LCXSuperCollectionViewCell.h
+* 列表cell中的元素响应事件：index区分与便利处理；
+UITableView+LCXCellActionHandle.h
+UICollectionView+LCXCellActionHandle.h
+* UIView添加常用回调block属性；
+UIView+LCXViewBlock.h
+## 支持：UITableView、UICollectionView
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

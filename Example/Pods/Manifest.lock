@@ -1,0 +1,16 @@
+PODS:
+  - LCXListViewKit (0.1.0)
+
+DEPENDENCIES:
+  - LCXListViewKit (from `../`)
+
+EXTERNAL SOURCES:
+  LCXListViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCXListViewKit: 31deb9f3f3b815a6397290d11dd6375b2e91cf5b
+
+PODFILE CHECKSUM: cddf453aa589927e2e5b8b44bb9921ae4756dfd1
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module LCXListViewKit {
+  umbrella header "LCXListViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
